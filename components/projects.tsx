@@ -4,7 +4,6 @@ import {
     Card,
     CardContent,
     CardDescription,
-    CardFooter,
     CardHeader,
     CardTitle,
   } from "@/components/ui/card" 
@@ -14,13 +13,12 @@ import { dataPortfolio} from "@/data";
 import Image from "next/image";
 import Title from "./shared/title";
 import Link from "next/link";
-import { Button, buttonVariants } from "./ui/button";
+import { buttonVariants } from "./ui/button";
 import {
   HoverCard,
   HoverCardContent,
   HoverCardTrigger,
 } from "@/components/ui/hover-card"
-import { Children } from "react";
 
 
 const Projects = () =>{

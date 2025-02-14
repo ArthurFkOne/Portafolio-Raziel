@@ -1,6 +1,6 @@
 "use client";
 import { useForm } from "react-hook-form";
-import { Form, FormField, FormItem, FormLabel, FormControl, FormMessage } from "./ui/form";
+import { Form, FormField, FormItem, FormControl, FormMessage } from "./ui/form";
 import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Input } from "./ui/input";

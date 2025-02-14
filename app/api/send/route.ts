@@ -22,10 +22,10 @@ export async function POST(req: NextRequest) {
             });
             return NextResponse.json({ data }, { status: 200 });
         }catch(error){
-            return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
+            return NextResponse.json(error);
         }
     } catch (error) {
-        return NextResponse.json({ error: "Failed to send email" }, { status: 500 });
+        return NextResponse.json(error);
     }
 }
 

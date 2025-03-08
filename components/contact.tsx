@@ -14,7 +14,7 @@ const Contact = () => {
                             <p>{data.title}</p>
                             <p>{data.subtitle}</p>
                             <Link href={data.link} className="text-blue-500 hover:text-blue-600">
-                                Enviar mensaje
+                                Revisar
                             </Link>
                         </div>
                     ))}

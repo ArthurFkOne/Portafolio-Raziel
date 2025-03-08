@@ -5,13 +5,13 @@ export const dataAboutMe = [
         id: 1,
         name: "Experiencia",
         icon: <Briefcase />,
-        description: "-1 años de experiencia",
+        description: "6 meses de experiencia",
     },
     {
         id: 2,
         name: "Clientes",
         icon: <UsersRound />,
-        description: "10 clientes satisfechos",
+        description: "3 clientes satisfechos",
     },
     {
         id: 3,
@@ -102,8 +102,8 @@ export const dataContact = [
     {
         id: 1,
         title: "Teléfono",
-        subtitle: "+52 998 700 879",
-        link: "tel:+52998700879",
+        subtitle: "+52 984 435 0825",
+        link: "tel:+529844350825",
         icon: <Phone />,
     },
     {
